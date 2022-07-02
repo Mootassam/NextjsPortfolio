@@ -174,7 +174,7 @@
   z-index: 4;
 }
 
-.header__logo > img {
+.header__logo > div {
   max-width: 150px;
   max-height: 80px;
   vertical-align: middle;
@@ -446,7 +446,7 @@
   .header__logo {
     align-self: center;
   }
-  .header__logo > img {
+  .header__logo > div {
     max-width: 150px;
     max-height: 80px;
 
@@ -502,7 +502,7 @@
   .header__links {
     display: flex;
   }
-  .header__logo > img {
+  .header__logo > div {
     max-width: 110px;
     height: auto;
     vertical-align: middle;
@@ -632,7 +632,7 @@
     font-size: 25px;
     color: var(--white-title);
   }
-  .header__logo img {
+  .header__logo > div {
     max-width: 220px;
     max-height: 220px;
   }

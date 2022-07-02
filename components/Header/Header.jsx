@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Logo } from "../../images";
 function Header(props) {
   const styles = props.styles;
   return (
@@ -8,11 +9,7 @@ function Header(props) {
         <div className={styles.header__menue}>
           <div className={styles.content}>
             <div className={styles.header__logo}>
-              <img
-                loading='lazy'
-                src='/assets/images/logo.png'
-                alt='Logo Image '
-              />
+              <Image loading='lazy' src={Logo} alt='Logo Image' />
             </div>
             <div className={styles.header__links} id='links'>
               <ul id={styles.links__ul}>
