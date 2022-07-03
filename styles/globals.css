@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 *,
 ::before,
 ::after {
@@ -7,6 +10,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: var(--scroll-pading, 100px);
 }
+
 :root {
   /* Primary Color  */
   --white-title: #ffffff;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
-const headerWrapper = styled.div`
+const HeaderWrapper = styled.div`
   .app__header {
-    background-image: url(../images/background_header.jpg);
+    background-image: url("../../images/background_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,7 +31,7 @@ const headerWrapper = styled.div`
     align-self: center;
     z-index: 4;
   }
-  .header__logo > div {
+  .header__logo {
     max-width: 150px;
     max-height: 80px;
     vertical-align: middle;
@@ -303,7 +303,7 @@ const headerWrapper = styled.div`
     .header__logo {
       align-self: center;
     }
-    .header__logo > div {
+    .header__logo {
       max-width: 150px;
       max-height: 80px;
 
@@ -359,7 +359,7 @@ const headerWrapper = styled.div`
     .header__links {
       display: flex;
     }
-    .header__logo > div {
+    .header__logo {
       max-width: 110px;
       height: auto;
       vertical-align: middle;
@@ -489,7 +489,7 @@ const headerWrapper = styled.div`
       font-size: 25px;
       color: var(--white-title);
     }
-    .header__logo > div {
+    .header__logo {
       max-width: 220px;
       max-height: 220px;
     }
@@ -497,7 +497,7 @@ const headerWrapper = styled.div`
       flex-direction: column;
     }
 
-    .header__logo > div {
+    .header__logo {
       width: 90px;
       max-height: 70px;
       height: auto;
@@ -611,4 +611,4 @@ const headerWrapper = styled.div`
   }
 `;
 
-export default headerWrapper;
+export default HeaderWrapper;

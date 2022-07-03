@@ -1,12 +1,13 @@
 import React from "react";
+import AboutWrapper from "./AboutWrapper";
 
 function About(props) {
   const styles = props.styles;
   return (
-    <React.Fragment>
-      <div className={styles.app__detaills}>
-        <div className={styles.detaill_target}>
-          <div className={styles.detaills__image}>
+    <AboutWrapper>
+      <div className='app__detaills'>
+        <div className='detaill_target'>
+          <div className='detaills__image'>
             <img loading='lazy' src='./images/process1.png' alt='' />
             <img loading='lazy' src='./images/target.svg' alt='Image Target' />
           </div>
@@ -27,8 +28,8 @@ function About(props) {
             is responsive and adaptive design.
           </p>
         </div>
-        <div className={styles.detaill__energy}>
-          <div className={styles.detaills__image}>
+        <div className='detaill__energy'>
+          <div className='detaills__image'>
             <img loading='lazy' src='./images/process3.png' alt='' />
             <img loading='lazy' src='./images/energy.svg' alt='Image Energy' />
           </div>
@@ -39,30 +40,30 @@ function About(props) {
           </p>
         </div>
       </div>
-      <div className={styles.app__about} id='about'>
-        <div className={styles.about}>
-          <div className={styles.about__left}>
+      <div className='app__about' id='about'>
+        <div className='about'>
+          <div className='about__left'>
             <img loading='lazy' src='./images/about.jpg' alt='About photo' />
-            <div className={styles.about__years}>
-              <span className={styles.years}> 18</span>
-              <span className={styles.project}>
+            <div className='about__years'>
+              <span className='years'> 18</span>
+              <span className='project'>
                 years of <br />
                 success
               </span>
             </div>
-            <div className={styles.about__project}>
-              <span className={styles.totale__project}> 52</span>
-              <span className={styles.project}>
+            <div className='about__project'>
+              <span className='totale__project'> 52</span>
+              <span className='project'>
                 Total <br />
                 Projects
               </span>
             </div>
           </div>
-          <div className={styles.about__right}>
-            <span className={styles.span__header}> I&apos;m a Designer</span>
-            <h3 className={styles.h3__about}>I Can Design Anything You Want</h3>
-            <div className={styles.right__detaills}>
-              <p className={styles.p__header}>
+          <div className='about__right'>
+            <span className='span__header'> I&apos;m a Designer</span>
+            <h3 className='h3__about'>I Can Design Anything You Want</h3>
+            <div className='right__detaills'>
+              <p className='p__header'>
                 Hello there! I&apos;m a web designer, and I&apos;m very
                 passionate and dedicated to my work. With 20 years experience as
                 a professional web developer, I have acquired the skills and
@@ -71,20 +72,20 @@ function About(props) {
                 collaboration.
               </p>
             </div>
-            <div className={styles.button}>Hire me</div>
+            <div className='button'>Hire me</div>
           </div>
 
-          <div className={styles.about__images}>
-            <div className={styles.image__about__left}>
+          <div className='about__images'>
+            <div className='image__about__left'>
               <img loading='lazy' src='./images/about1.png' alt='About Image' />
             </div>
-            <div className={styles.images__about__right}>
+            <div className='images__about__right'>
               <img loading='lazy' src='./images/about2.png' alt='About Image' />
             </div>
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </AboutWrapper>
   );
 }
 
